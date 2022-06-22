@@ -19,50 +19,12 @@ const UI_INITIAL_STATE: UiState = {
 		title: "Aviador",
 		domain: "aviador.com",
 		// logo: "https://res.cloudinary.com/dvcyhn0lj/image/upload/v1647095547/piccoletti-logo_j6hxbw.jpg",
-		logo: "https://res.cloudinary.com/dvcyhn0lj/image/upload/v1655836738/glass/zarla-ojo-de-aviador-1x1-2400x2400-20220209-6xt34wyktxdkg8xt9y6x_m6rbbm_d9v11u.png",
+		logo: "https://res.cloudinary.com/dvcyhn0lj/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1647700196/glass/zarla-ojo-de-aviador-1x1-2400x2400-20220209-b9jctd87gxk7k8vvfkpf_pkvxv9.png",
 		numberPhone: "68175851",
 		address: "av fatima",
 		description: "tienda de lentes",
 		type: "ecommerce",
-		categories: [
-			{
-				_id: 'men',
-				name: 'lentes',
-				imageSrc:"https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
-				featured: [
-					{
-						_id:"2",
-						name: 'New Arrivals',
-						href: '#',
-						description: 'ropa para mujer',
-						imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
-						imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
-					},
-					
-				],
-				sections: [
-					{
-						_id: 'glasses',
-						name: 'Glasses',
-						href: '#',
-						description: 'ropa para mujer',
-						imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
-						imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
-						items: [
-							{ 
-								_id: '3',
-								name: 'Tops', 
-								href: '#',
-								description: 'ropa para mujer',
-								imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
-								imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
-							}
-						],
-					},
-					
-				],
-			},
-		],
+		categories: [],
 		pages: [],
 	}
 };
